@@ -32,6 +32,18 @@
             */
             #endregion
             #endregion
+
+            #region Practical
+            #region answer 1
+            DeliveryAddress address = new DeliveryAddress(
+            "Menoufia",
+            "El Galaa Street",
+            25
+            );
+
+            Console.WriteLine(address.GetFullAddress());
+            #endregion
+            #endregion
         }
     }
 }
